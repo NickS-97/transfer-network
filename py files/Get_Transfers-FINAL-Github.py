@@ -23,7 +23,7 @@ import requests
 
 headers = {
     'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
-    'x-rapidapi-key': "835fa8219cmsh874166c2864ff34p19eddcjsneace1fe07ff5"
+    'x-rapidapi-key': ""
     }
 
 
@@ -238,7 +238,7 @@ transfers
 
 
 ## save transfers df to csv
-#transfers.to_csv('D:/Learning/Python/Market_Values/transfers.csv', index = False)
+#transfers.to_csv('transfers.csv', index = False)
 
 
 # In[20]:
@@ -247,9 +247,9 @@ transfers
 ## serialize dictionaries as json files and save to use later
 import json
 
-with open('D:/Learning/Python/Market_Values/league_info.json', 'w') as outfile:
+with open('league_info.json', 'w') as outfile:
     #json.dump(league_info, outfile, indent = 4)
     
-with open('D:/Learning/Python/Market_Values/team_dict.json', 'w') as outfile:
+with open('team_dict.json', 'w') as outfile:
     #json.dump(team_dict, outfile, indent = 4)
 

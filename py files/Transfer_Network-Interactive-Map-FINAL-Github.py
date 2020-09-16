@@ -30,60 +30,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 
-# In[5]:
-
-
-pd.__version__
-
-
-# In[6]:
-
-
-np.__version__
-
-
-# In[7]:
-
-
-json.__version__
-
-
-# In[8]:
-
-
-nx.__version__
-
-
-# In[9]:
-
-
-re.__version__
-
-
-# In[10]:
-
-
-go.__version__
-
-
-# In[11]:
-
-
-dash.__version__
-
-
-# In[13]:
-
-
-import plotly
-
-
-# In[14]:
-
-
-plotly.__version__
-
-
 # In[4]:
 
 
@@ -291,10 +237,7 @@ def create_graph(team = None, player = None, year = [None, None], df = transfers
         year_min = year[0]
         year_max = year[1]
         df = df.loc[(df['year'] >= year_min) & (df['year'] <= year_max), :]
-#     else:
-#         df = transfers.head(1000) ## REMEMBER THIS IS JUST SHOWING 1000
-#         #df = transfers
-    
+
     ## create graph
     g = nx.from_pandas_edgelist(df, source = 'team_in_name', target = 'team_out_name', create_using = nx.DiGraph)
     
@@ -368,19 +311,6 @@ all_teams['10894']['lat'] = 59.9560
 all_teams['10894']['lng'] = 11.0504
 
 ## all other teams appear to be correct
-
-
-# In[26]:
-
-
-## this is checking to make sure all the nodes are 
-# passed = []
-# for node in g.nodes():
-#     for team in all_teams:
-#         if node == all_teams[team]['name']:
-#             print(all_teams[team]['lng'], all_teams[team]['lat'])
-#             g.nodes[node]['pos'] = list([all_teams[team]['lng'], all_teams[team]['lat']])
-    
 
 
 # ## Define Functions to Create Figure

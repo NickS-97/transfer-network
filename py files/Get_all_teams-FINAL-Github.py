@@ -43,7 +43,7 @@ teams_unique = list(teams_unique)
 
 headers = {
     'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
-    'x-rapidapi-key': "835fa8219cmsh874166c2864ff34p19eddcjsneace1fe07ff5"
+    'x-rapidapi-key': ""
     }
 
 
@@ -108,12 +108,6 @@ def get_team_info(team_id):
 # all_teams
 
 
-# In[10]:
-
-
-#passed
-
-
 # ## Define function to get lat and lng from address, city, country
 
 # In[11]:
@@ -121,11 +115,11 @@ def get_team_info(team_id):
 
 ##opencage api info
 
-geocode_key = '81d4e5419fc7490a9137a3a30aec7eee'
+geocode_key = ''
 url = "https://opencage-geocoder.p.rapidapi.com/geocode/v1/json"
 headers = {
     'x-rapidapi-host': "opencage-geocoder.p.rapidapi.com",
-    'x-rapidapi-key': "835fa8219cmsh874166c2864ff34p19eddcjsneace1fe07ff5"
+    'x-rapidapi-key': ""
     }
 
 
