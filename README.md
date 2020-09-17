@@ -4,6 +4,8 @@ The purpose of this project was to learn how to use dash and plotly, and get som
 This was actually going to be part 2 in a 2 part project using the Football-API. The first part was an attempt at creating a machine learning model to predict market values. Unfortunately, the model did not turn out how I intended.
 I made this project my main focus. While I was not able to add all the features I had planned, I am happy with the result, considering it was my first attempt using some of these packages. 
 
+See finished project at: https://transfernetwork.herokuapp.com/
+
 Breakdown of work:
 
 "Get_Transfers"
