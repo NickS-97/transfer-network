@@ -1,6 +1,6 @@
 # transfer-network
-Visualization of the global movement of soccer players using plotly and dash
-The purpose of this project was for to learn how to use dash and plotly, and get some experience with the networkx package, which I was introduced to in a Coursera course. 
+Visualization of the global movement of soccer players using plotly and dash.
+The purpose of this project was to learn how to use dash and plotly, and get some experience with the networkx package, which I was introduced to in a Coursera course. 
 This was actually going to be part 2 in a 2 part project using the Football-API. The first part was an attempt at creating a machine learning model to predict market values. Unfortunately, the model did not turn out how I intended.
 I made this project my main focus. While I was not able to add all the features I had planned, I am happy with the result, considering it was my first attempt using some of these packages. 
 
